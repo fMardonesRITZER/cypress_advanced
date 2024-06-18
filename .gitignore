@@ -1,5 +1,4 @@
 # Ignore Cypress configuration and tests
-cypress/
 cypress.env.json
 cypress.json
 
