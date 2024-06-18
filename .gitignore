@@ -1,0 +1,8 @@
+# Ignore Cypress configuration and tests
+cypress/
+cypress.env.json
+cypress.json
+
+# Ignore Node.js dependencies
+node_modules/
+package-lock.json
