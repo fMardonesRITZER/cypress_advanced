@@ -1,16 +1,25 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  env: {
-    usuario: "pushingit",
-    password: "123456!"
-  },
+  projectId: 'n2kn98',
   e2e: {
     setupNodeEvents(on, config) {
-      // Aquí puedes configurar eventos adicionales para Node si es necesario
     },
-    baseUrl: "https://pushing-it.vercel.app", // Configura baseUrl dentro de e2e
-    defaultCommandTimeout: 10000
-  }
+    baseUrl: "https://pushing-it.vercel.app",
+    watchForFileChanges: false,
+    defaultCommandTimeout: 10000,
+    fixturesFolder: 'cypress/e2e/',
+    env: {
+      admin: {
+        username: 'pushingit',
+        password: '123456!',
+      },
+      so: {
+        username: 'pushingit',
+        password: 'pushingit2'
+      },
+      baseUrlAPI: 'https://pushing-it.onrender.com/api',
+      token: ''
+    },
+  },
 });
-
