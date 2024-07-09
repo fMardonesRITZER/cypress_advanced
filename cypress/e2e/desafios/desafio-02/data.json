@@ -1,14 +1,14 @@
 {
     "product": {
-        "name": "Pantalon",
-        "price": 34,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTROoeC71u-Vc-G4-T93McQJqj8ON7HBi1toy6hFzpdQ&s"
+        "name": "Remera Negra",
+        "price": 2500,
+        "img": "https://acdn.mitiendanube.com/stores/001/268/672/products/a13usaonutl-_ac_cla_21402000_71-rbycrskl1-f46a4b6dbd2d32891216268116695561-240-0.jpg"
     },
 
     "updatedProduct": {
-        "name": "Campera Retro Arg",
-        "price": 160000,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2bba0736190a495291842bec988bad53_9366/Campera_Deportiva_Tejida_Seleccion_Argentina_1994_Violeta_IS0267_HM30.jpg" 
+        "name": "Buzo Negro",
+        "price": 5000,
+        "img": "https://acdn.mitiendanube.com/stores/002/292/081/products/3-901-e3cf717aa78e5299a116681790544725-1024-1024.jpg" 
     }
 }
 

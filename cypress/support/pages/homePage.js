@@ -2,7 +2,7 @@ export class HomePage {
     constructor() {
         this.onlineShopLink = 'onlineshoplink'
     }
-    goToOnlineShop() {
+    onlineShop() {
         cy.getByDataCy(this.onlineShopLink).click();
     }
 }

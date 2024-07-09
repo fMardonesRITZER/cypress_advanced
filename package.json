@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open --e2e -b electron"
+    "test": "npx cypress open"
   },
   "keywords": [],
   "author": "",

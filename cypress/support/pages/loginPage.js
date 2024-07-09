@@ -6,10 +6,10 @@ export class LoginPage {
         this.submitButton = 'submitForm';
     }
 
-    //----------------- ACTIONS -----------------//
-    loginSuccess(userName, password) {
+
+    loginSuccess(username, password) {
         cy.getByDataCy(this.registerToggle).dblclick();
-        cy.getByDataCy(this.userNameInput).type(userName);
+        cy.getByDataCy(this.userNameInput).type(username);
         cy.getByDataCy(this.passwordInput).type(password);
         cy.getByDataCy(this.submitButton).click();
     }
