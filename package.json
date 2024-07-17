@@ -1,15 +1,10 @@
-{
-"name": "avanzado-2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "npx cypress open"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "cypress": "^13.11.0"
-  }
-}
+{"name":"avanzado-2",
+"version":"1.0.0",
+"description":"",
+"main":"index.js",
+"scripts":{"test":"npx cypress open"},
+"keywords":[],"author":"",
+"license":"ISC",
+"devDependencies":{"cypress":"^13.11.0",
+"pg":"^8.12.0"
+}}
